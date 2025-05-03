@@ -10,10 +10,6 @@ from ._internals.write_count_words import write_count_words
 
 def main():
 
-    input_files_list=os.listdir('data/input/')
-    #all_lines = read_all_lines()
-
-
     ## mover a la funcion read_all_lines
     all_lines = read_all_lines()
 
