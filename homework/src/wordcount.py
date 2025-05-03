@@ -1,10 +1,9 @@
 # obtain a list of files in the input directory
 import os
 
-from homework.src._internals.count_words import count_words
-from homework.src._internals.read_all_lines import read_all_lines
-from homework.src._internals.split_in_words import split_in_words
-
+from ._internals.count_words import count_words
+from ._internals.read_all_lines import read_all_lines
+from ._internals.split_in_words import split_in_words
 from ._internals.write_count_words import write_count_words
 
 
